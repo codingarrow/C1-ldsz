@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+img{border:0;}
+body{background-color:#f1f1f1; margin:0; padding:0}
+
+div.main{width:1024px; height: auto; margin:0 auto;}
+div.top{width:1024px; height:215px; float:left; position:relative;}
+	div.top div.tnav{width:400px; height:20px; position:absolute; top:14px; left:5px;}
+		#tnav{list-style:none; float:left; width:400px;}
+		#tnav ul li{list-style:none; float:left;}
+		#tnav a{margin-right:20px;}
+	/*div.top img.logo{width:295px; height:61px; position:absolute; top:46px; left:5px;}*/
+	div.top img.logo{width:295px; height:61px; position:absolute; top:36px; left:5px;}
+	/*div.top img.cnumber{width:292px; height:16px; position:absolute; top:20px; right:0;}*/
+	div.top img.cnumber{width:292px; height:16px; position:absolute; top:50px; right:0;}
+	div.top div.searchf{width:242px; height:27px; position:absolute; top:67px; right:0;}
+	div.top div.navbig{width:1024px; height:62px; position:absolute; top:121px; left:0;}
+		div.navl{width:9px; height:62px; float:left; background:url(http://salesrainplaza.com/srplazaCRM/images/navl.jpg);}
+		div.navm{width:1006px; height:62px; float:left; background-color:#1d1d1d;}
+			/*nav*/
+			#nav{list-style:none; float:left; width:1006px; margin:auto; height:62px; z-index:100;}
+			#nav li{float:left; position:relative; z-index:101;}
+			#nav a{padding-right: 23px; padding-left: 23px; display:block; line-height: 62px;}
+			#nav a:hover{color:#fff;}
+			
+			/*--- DROPDOWN ---*/
+			#nav ul{list-style:none; position:absolute; left:-9999px; line-height: 35px}
+			#nav ul li{padding-top:1px;float:none; z-index:102;}
+			#nav ul a{white-space:nowrap; line-height:35px;}
+			#nav li:hover ul{left:0;}
+			#nav li:hover a{ background:#db630a; text-decoration:none; color:#fff;}
+			#nav li:hover ul a{text-decoration:none;}
+			#nav li:hover ul li a:hover{background:#888888;	color:#fff;}
+		div.navr{width:9px; height:62px; float:left; background:url(http://salesrainplaza.com/srplazaCRM/images/navr.jpg);}
+	div.top div.navshadow{width:1024px; height:33px; background:url(http://salesrainplaza.com/srplazaCRM/images/navshadow.jpg); position:absolute; top:183px; left:0;}
+	
+	div.banner{width:1024px; height:390px; float:left; background:url(http://salesrainplaza.com/srplazaCRM/images/bannerbg.png) no-repeat;}
+		div.bannerl{width:260px; height:390px; float:left;}
+			div.bannerla{width:180px; height:300px; margin:0 auto; margin-top:50px;}
+			div.bannerlb{width:180px; height:300px; float:left;}
+				div.bant{width:180px; height:30px; float:left;}
+				div.banm{width:180px; height:auto; float:left;}
+					div.banm ul{list-style-image:url(http://salesrainplaza.com/srplazaCRM/images/arrow-smooth.png);}
+					div.banm li{float:left; width:150px; line-height:35px; white-space:nowrap; margin-left:15px; padding-left:10px; border-bottom:1px dashed #d5d4d4;}
+		div.bannerr{width:755px; height:370px; float:left; margin-top:10px; overflow: hidden;}
+		.carousel img {	display: block; float: left;}
+					
+	div.midi{width:1024px; height:auto; float:left; background:url(http://salesrainplaza.com/srplazaCRM/images/midm.jpg) repeat-y;}
+	div.mid{width:1024px; height:auto; float:left; margin-top:30px; background:url(http://salesrainplaza.com/srplazaCRM/images/midm.jpg) repeat-y;}
+		div.midt{width:1024px; height:30px; float:left; background:url(http://salesrainplaza.com/srplazaCRM/images/midt.jpg);}
+		div.midm{width:1024px; height:auto; float:left;}
+			div.midml{width:250px; height:auto; float:left;}
+				div.midla{width:180px; height:auto; margin:0 auto;}
+				div.midlb{width:180px; height:auto; float:left; margin-bottom:30px;}
+					div.midltitle{width:180px; height:30px; float:left;}
+					div.midcontent{width:180px; height:auto; float:left;}
+						div.midcontent ul{list-style-image:url(http://salesrainplaza.com/srplazaCRM/images/arrow-smooth.png);}
+						div.midcontent li{float:left; width:150px; line-height:35px; white-space:nowrap; margin-left:15px; padding-left:10px; border-bottom:1px dashed #d5d4d4;}
+			div.midmrh{width:765px; height:auto; float:left;}
+			div.midmr{width:765px; height:auto; float:left;}
+			div.midmrtitle{width:765px; height:30px; float:left;}
+				
+				div.midrca{width:765px; height:auto; float:left; margin-top:30px;}
+				
+					div.cul{width:400px; min-height:412px; float:left;}
+					div.cul2{min-height:412px; float:left;}
+					div.cur{width:320px; min-height:412px; float:left; background:url(http://salesrainplaza.com/srplazaCRM/images/shadow.png) no-repeat left;}
+					div.cur2{width:320px; min-height:412px; float:left; }
+						div.cura{width:270px; height:auto; float:right; margin-top:80px;}
+						div.cura2{width:270px; height:auto; float:right;}
+						div.curb{width:270px; height:auto; float:left;}
+				
+				
+				/*product*/
+					div.pha{width:700px; height:auto; margin:0 auto; }
+					div.phb{width:700px; height:auto; float:left; margin-top:40px;}
+					div.ph{width:700px; height:450px; float:left; margin-bottom:20px;}
+							div.pp{width:300px; height:450px; float:left;}
+							div.ps{width:27px; height:450px; float:left;}
+							div.pdh{width:300px; height:450px; float:left;}
+								div.pdt{width:300px; height:30px; float:left;}
+								div.pdt sup{font-size:14px;}
+								div.pdd{width:300px; float:left; margin-bottom:10px; margin-top:10px;}
+								div.pdih{width:300px; float:left;}
+									div.pdi{width:110px; height:110px; float:left; margin:0 23px 23px 0;}
+				
+				div.midrc{width:765px; height:auto; float:left;}
+					
+				div.midmrc ul{padding:0; margin:0; list-style:none;}
+				div.midmrc li{width:180px; height:330px; float:left; margin:0 11px 27px 0; list-style:none; display:block;}
+					div.fph{width:180px; height:330px; float:left; margin-bottom:5px;}
+						div.fp{width:180px; height:250px; float:left; margin-bottom:10px;}
+						div.fpd{width:180px; height:70px; float:left;}
+		div.midb{width:1024px; height:30px; float:left; background:url(http://salesrainplaza.com/srplazaCRM/images/midb.jpg);}	
+	
+/*div.bot{width:100%; height:400px; background:url(http://salesrainplaza.com/srplazaCRM/images/footerbg.jpg); float:left; margin-top:20px;}*/
+div.bot{width:100%; background:url(http://salesrainplaza.com/srplazaCRM/images/footerbg.jpg); float:left; margin-top:20px;}
+	div.bota{width:1024px; height:400px; margin:0 auto;}
+	div.botb{width:1024px; height:400px; float:left;}
+		div.bott{width:1024px; height:270px; float:left; margin-top:30px;}
+			div.botta{width:180px; height:270px; float:left; margin-left:22px;}
+			div.botta ul{list-style-image:url(http://salesrainplaza.com/srplazaCRM/images/arrow-smooth.png);}
+			div.botta li{float:left; width:150px; line-height:35px; white-space:nowrap; margin-left:15px; padding-left:10px; border-bottom:1px dotted #d5d4d4;}
+		div.botm{width:1024px; height:50px; float:left; background-color:#e7e7e7; margin-top:15px; margin-left: 164px;}
+			div.botml{float:left; width:400px; height:20px; margin:15px 0 0 30px;}
+			div.botmr{width:292px; height:16px; float:right; margin:15px 30px 0 0;}
+		
+/*form*/
+.f1{width:191px; height:27px; background:url(http://salesrainplaza.com/srplazaCRM/images/searchbg.jpg) no-repeat; float:left; border:0; padding:0px 5px 0 10px; font-family:Calibri, Arial, Tahoma; font-size:12px; text-transform:uppercase; color:#525252;}
+.f2{width:36px; height:27px; background:url(http://salesrainplaza.com/srplazaCRM/images/seachbtn.jpg) no-repeat; float:left; cursor:pointer; border:0;}
+
+.f3{width:250px; border:0px; height:25px; padding:2px 5px 0 5px; background-color:#ced3d5;  margin:10px 0 10px 0; }
+.f4{width:200px; border:0px; height:25px; padding:1px 5px 0 5px; background-color:#ced3d5; margin:10px 0 10px 0; }
+.f5{width:250px; border:0px; height:100px; padding:2px 5px 0 5px; background-color:#ced3d5; margin:10px 0 10px 0;}
+.f6{width:250px; border:0px; height:60px; padding:2px 5px 0 5px; background-color:#ced3d5; margin:10px 0 10px 0;}
+
+.sn {background:url(http://salesrainplaza.com/srplazaCRM/images/send.png) no-repeat top; display: block; width:127px; height:42px; overflow:hidden; text-indent: 99999px;}
+.sn a{border:0;}
+.sn:hover{ background:url(http://salesrainplaza.com/srplazaCRM/images/send2.png) 0 -42px; }
+
+/*text*/
+.t1{font-family:Calibri, Arial, Tahoma; font-size:12px; color:#525252; text-transform:uppercase;}
+.t1 a{text-decoration:none; color:#525252;}
+.t1 a:hover{text-decoration:underline; color:#525252;}
+
+.t2{font-family:Calibri, Arial, Tahoma; font-size:14px; color:#f1f1f1;}
+.t2 a{text-decoration:none; color:#f1f1f1;}
+.t2 a:hover{text-decoration:underline; color:#fc720c;}
+
+.t3{font-family:Calibri, Arial, Tahoma; font-size:18px; font-weight:bold; color:#090909;}
+
+.t4{font-family:Calibri, Arial, Tahoma; font-size:14px; color:#565656;}
+.t4 a{text-decoration:none; color:#565656;}
+.t4 a:hover{text-decoration:none; color:#fc720c;}
+
+.t5{font-family:Calibri, Arial, Tahoma; font-size:14px; color:#565656;}
+.t5 a{text-decoration:none; color:#565656;}
+.t5 a:hover{text-decoration:none; color:#fc720c;}
+
+.t5a{font-family:Calibri, Arial, Tahoma; font-size:14px; font-weight:bold; font-size:18px; color:#eb5004;}
+.t5a a{text-decoration:none; color:#eb5004;}
+.t5a a:hover{text-decoration:none; color:#eb5004;}
+
+.t6{font-family:calibri, Arial, "Helvetica World"; font-size:24px; color:#565656;}
+.t6a{font-family:calibri, Arial, "Helvetica World"; font-size:24px; color:#fc720c;}
+.t6b{font-family:calibri, Arial, "Helvetica World"; font-size:24px; color:#a27200;}
+
+.t7{font-family:Calibri, Arial, Tahoma; font-size:14px; color:#a27200;}
+.t7 a{text-decoration:none; color:#a27200;}
+.t7 a:hover{text-decoration:none; color:#a27200;}
